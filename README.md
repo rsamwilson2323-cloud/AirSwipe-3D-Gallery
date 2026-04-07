@@ -1,21 +1,21 @@
-# 🎯 Gesture-Controlled 3D Image Gallery
+# ✋ AirSwipe 3D Gallery
 
-An interactive **3D Image Gallery** controlled using **hand gestures** built with  
-**Python 🐍, OpenCV 🎥, and MediaPipe 🧠**.
+An interactive **gesture-controlled 3D image gallery** built using  
+**Python 🐍, OpenCV 🎥, and MediaPipe 🧠**
 
-Control images in a smooth circular layout using just your fingers — rotate, zoom, and explore in real time.
+Control your gallery in real-time using just your hand — swipe, rotate, and zoom in a futuristic UI.
 
 ---
 
 ## 🚀 Features
 
-- 🖐️ Hand gesture control (pinch & move)
-- 🔄 Smooth 3D circular gallery rotation
-- 🔍 Zoom in/out using pinch gesture
-- 🎯 Center crosshair HUD
+- 🖐️ Hand gesture recognition
+- 🔄 Smooth 3D circular image rotation
+- 🔍 Pinch to zoom functionality
+- 🎯 Minimal HUD with center crosshair
 - 🔴 Clean red UI theme
 - ⚡ Real-time performance
-- 🧠 AI-powered hand tracking (MediaPipe)
+- 🧠 AI-based hand tracking (MediaPipe)
 
 ---
 
@@ -31,37 +31,37 @@ Control images in a smooth circular layout using just your fingers — rotate, z
 ## 📂 Project Structure
 
 ```
-project/
-│── gallery/          # Add your images here
-│── main.py           # Main application file
+AirSwipe-3D-Gallery/
+│── AirSwipe 3D Gallery.py   # Main application
+│── gallery/                 # Add your images here
+│── requirements.txt         # Dependencies
+│── README.md
+│── LICENSE
 ```
 
 ---
 
 ## 📦 Installation
 
-1. Clone the repository:
+### 1. Clone the repository
 
 ```
-[git clone https://github.com/your-username/gesture-3d-gallery.git](https://github.com/rsamwilson2323-cloud/AirSwipe-3D-Gallery.git)
-cd gesture-3d-gallery
+git clone https://github.com/rsamwilson2323-cloud/AirSwipe-3D-Gallery.git
+cd AirSwipe-3D-Gallery
 ```
 
-2. Install dependencies:
+### 2. Install dependencies
 
 ```
-pip install opencv-python mediapipe numpy
+pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Usage
-
-1. Add images to the `gallery/` folder  
-2. Run the program:
+## ▶️ Run the Project
 
 ```
-python main.py
+python "AirSwipe 3D Gallery.py"
 ```
 
 ---
@@ -77,17 +77,17 @@ python main.py
 ## 🧠 How It Works
 
 - MediaPipe detects hand landmarks in real time  
-- Distance between fingers controls zoom  
-- Hand movement controls rotation  
-- Images are rendered in a circular 3D layout using math transformations  
+- Distance between thumb & index finger controls zoom  
+- Horizontal hand movement rotates the gallery  
+- Images are arranged in a circular 3D layout using trigonometry  
 
 ---
 
 ## 🔥 Highlights
 
-- No mouse or keyboard interaction required  
+- No mouse or keyboard needed  
 - Fully gesture-based UI  
-- Smooth animations and depth illusion  
+- Smooth animations with depth illusion  
 - Lightweight and fast  
 
 ---
@@ -96,17 +96,17 @@ python main.py
 
 - Webcam
 - Python 3.7+
-- Good lighting for hand detection
+- Good lighting conditions
 
 ---
 
 ## 💡 Future Improvements
 
-- 🖼️ Image selection with gesture
-- 🎵 Add background music
-- 📱 Mobile compatibility
-- 🧩 Gesture shortcuts
-- 🌈 Themes customization
+- 🖼️ Gesture-based image selection  
+- 🎵 Background music integration  
+- 📱 Mobile support  
+- 🌈 UI themes & customization  
+- 🧩 Advanced gesture controls  
 
 ---
 
@@ -130,11 +130,11 @@ If you like this project:
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
 
 ---
 
 ## 🚀 Final Note
 
-This project shows how powerful **Computer Vision + Creativity** can be.  
-Build, experiment, and take it to the next level!
+AirSwipe 3D Gallery is a perfect blend of **Computer Vision + UI Innovation**.  
+Build more. Experiment more. Create the future.
