@@ -43,7 +43,7 @@ project/
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/gesture-3d-gallery.git
+[git clone https://github.com/your-username/gesture-3d-gallery.git](https://github.com/rsamwilson2323-cloud/AirSwipe-3D-Gallery.git)
 cd gesture-3d-gallery
 ```
 
